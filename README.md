@@ -1,45 +1,53 @@
-# MANI — Developer Portfolio
+# MANIGUPTA-Portfolio
 
-A responsive, dark-mode developer portfolio built with React and Vite.
+A responsive personal developer portfolio built with React and Vite to showcase my technical skills, academic projects, and professional profile.
 
 ## Features
-- Responsive navigation and mobile menu
-- Hero, About, Skills, Projects, Resume, and Contact sections
-- Project cards with configurable repository/demo links
-- Dark navy and violet visual theme
-- Contact section opens the visitor's email application
-- Lightweight setup with Vite
 
-## Run locally
+- Responsive design for desktop and mobile devices
+- Interactive navigation menu
+- About, Skills, Projects, Resume, and Contact sections
+- Dark and light mode toggle
+- Project cards with GitHub repository links
+- Resume access through Google Drive
+- Contact section that prepares an email message
+- Modern UI with a navy and violet visual theme
 
-Install [Node.js](https://nodejs.org/) first.
+## Tech Stack
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Lucide React
+- Git and GitHub
+
+## Run Locally
+
+Make sure [Node.js](https://nodejs.org/) is installed.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite, usually `http://localhost:5173`.
+Open the local URL shown in your terminal, usually `http://localhost:5173`.
 
-## Customize before publishing
-
-Open `src/App.jsx` and update:
-- `PROFILE.email`
-- `PROFILE.linkedin`
-- `PROFILE.github`
-- project `github` and `demo` links
-- any project details or technologies that do not match your implementation
-
-To enable the Resume buttons, add your real resume PDF as `public/resume.pdf`.
-
-## Build for deployment
+## Build for Production
 
 ```bash
 npm run build
 npm run preview
 ```
 
-You can deploy the generated `dist` folder to Vercel, Netlify, or another static hosting provider.
+## Resume
 
-## Important
-The project cards are prepared for your stated projects. Replace placeholder repository/demo URLs with real links, and only list technologies and features you have actually implemented.
+The Resume buttons link to my Google Drive resume. Ensure the sharing permission is set to **Anyone with the link — Viewer**.
+
+## Author
+
+**Vema Venkata Mani Gupta**
+
+- GitHub: [VManiGupta](https://github.com/VManiGupta)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/vvmanigupta)
