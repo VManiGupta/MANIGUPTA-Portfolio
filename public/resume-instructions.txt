@@ -1,0 +1,5 @@
+To activate the Resume buttons:
+1. Export your current resume as a PDF.
+2. Name the file resume.pdf.
+3. Place it in this public folder (public/resume.pdf).
+The portfolio buttons already link to /resume.pdf.
